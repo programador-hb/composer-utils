@@ -1,5 +1,5 @@
 <?php
-namespace src\Utils;
+namespace Hbsolutions\Utils;
 
 use App\Models\Admin\Direccion;
 use App\Sistema;
@@ -477,7 +477,7 @@ class Utils
      * 
      * @return array
      */
-    public static function direccionesPorUsuario($userId = null, $pluck = null, $lasQuePuedeVer = false)
+    public static function direccionesPorUsuario($userId = null, $pluck = null, $lasQuePuedeVer = false, $direccionModel)
     {
         $user = self::currentUser($userId);
 
@@ -486,7 +486,7 @@ class Utils
             if ($lasQuePuedeVer) {
                 $usrFirmas = self::firmasDeUsuario($user, 'id');
 
-                $direcciones = Direccion::whereIn('firma_id', $usrFirmas)->get();
+                $direcciones = $direccionModel::whereIn('firma_id', $usrFirmas)->get();
                 return $direcciones->pluck('id')->toArray();
             }
             // RETORNA LAS DIRECCIONES QUE TIENE EL USUARIO
