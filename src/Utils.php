@@ -18,8 +18,8 @@ use Illuminate\Support\Carbon;
 
 class Utils
 {
-    public static function TestingDemo($message){
-        echo "Si te devuelve la hora". Carbon::now()->format('Y-m-d H:i:s');
+    public static function PruebaDemoNueva(){
+        echo "Si esta funcionando bien ". Carbon::now()->format('Y-m-d');
     }
     /**
      * Retorna el ID del sistema basándose en la URL.
