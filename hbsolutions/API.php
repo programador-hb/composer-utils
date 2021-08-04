@@ -1,6 +1,6 @@
 <?php
 
-namespace Hbsolutions\Utils\API;
+namespace Hbsolutions\API;
 
 use \Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;
