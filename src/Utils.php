@@ -18,6 +18,9 @@ use Illuminate\Support\Carbon;
 
 class Utils
 {
+    public static function TestingDemo($message){
+        echo "Si te devuelve la hora". Carbon::now()->format('Y-m-d H:i:s');
+    }
     /**
      * Retorna el ID del sistema basándose en la URL.
      * Warning: Ya que se basa en la URL, puede que no coincida con los datos
