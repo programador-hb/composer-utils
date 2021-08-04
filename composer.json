@@ -13,8 +13,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "Hbsolutions\\Utils\\": "hbsolutions",
-            "Hbsolutions\\API\\": "hbsolutions"
+            "Hbsolutions\\Utils\\": "hbsolutions/",
+            "Hbsolutions\\API\\": "hbsolutions/"
         }
     }
 }
