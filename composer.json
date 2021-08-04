@@ -1,0 +1,18 @@
+{
+    "name": "hb/utils",
+    "description": "Utilerias para proyecto hb",
+    "require": {
+        "illuminate/support": "^7.30"
+    },
+    "authors": [
+        {
+            "name": "programador",
+            "email": "programador@hotelesbuenaventura.com.mx"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "src\\Utils\\": "src/"
+        }
+    }
+}
