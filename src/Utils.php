@@ -18,9 +18,6 @@ use Illuminate\Support\Carbon;
 
 class Utils
 {
-    public static function PruebaDemoNueva(){
-        echo "Si esta funcionando bien ". Carbon::now()->format('Y-m-d');
-    }
     /**
      * Retorna el ID del sistema basándose en la URL.
      * Warning: Ya que se basa en la URL, puede que no coincida con los datos
