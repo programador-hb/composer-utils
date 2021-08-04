@@ -1,5 +1,5 @@
 {
-    "name": "hb/utils",
+    "name": "hb-solutions/utils",
     "description": "Utilerias para proyecto hb",
     "require": {
         "illuminate/support": "^7.30"
