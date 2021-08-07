@@ -1,7 +1,7 @@
 <?php
-namespace Hbsolutions\Exceptions;
+namespace Hbsolutions\Exceptions\HttpExceptions;
 
-use Hbsolutions\Exceptions\BaseExceptions;
+use Hbsolutions\Exceptions\BaseExceptions\BaseExceptions;
 
 
 class HttpExceptions extends BaseExceptions {

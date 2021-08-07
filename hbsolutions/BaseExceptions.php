@@ -1,6 +1,6 @@
 <?php
 
-namespace Hbsolutions\Exceptions;
+namespace Hbsolutions\Exceptions\BaseExceptions;
 
 class BaseExceptions extends \Exception {
 
