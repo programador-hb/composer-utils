@@ -11,5 +11,6 @@ class HttpExceptions extends BaseExceptions {
 
     public function obtenerMensaje(){
         return "si llega";
+        
     }
 }
