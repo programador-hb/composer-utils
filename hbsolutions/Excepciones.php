@@ -5,12 +5,12 @@ namespace Hbsolutions\Exceptions;
 class Excepciones extends \Exception
 {
 
-    public $e;
+    private $e;
 
     public function __construct(\Exception $e)
     {
 
-        $this->$e = $e;
+        $this->e = $e;
 
     }
 
