@@ -1,6 +1,6 @@
 <?php
 
-namespace Hbsolutions\Exceptions\HttpExceptions;
+namespace Hbsolutions\Exceptions;
 
 class Excepciones extends \Exception
 {
@@ -25,6 +25,6 @@ class Excepciones extends \Exception
     }
 
     public function testing(){
-        
+
     }
 }
