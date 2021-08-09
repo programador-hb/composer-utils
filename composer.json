@@ -1,7 +1,7 @@
 {
     "name": "hb-solutions/utils",
     "description": "Utilerias para proyecto hb",
-    "version": "1.5",
+    "version": "1.6",
     "require": {
         "illuminate/support": "^7.30"
     },
