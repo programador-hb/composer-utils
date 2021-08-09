@@ -14,7 +14,7 @@ class Excepciones extends \Exception
 
     public function formatEventException()
     {
-        return [
+        return [ 
             "message" => $this->e->getMessage(),
             "line" => $this->e->getLine(),
             "file" => $this->e->getFile(),
