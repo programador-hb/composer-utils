@@ -9,7 +9,9 @@ class Excepciones extends \Exception
 
     public function __construct(\Exception $e)
     {
+
         $this->$e = $e;
+
     }
 
     public function formatEventException()
@@ -20,5 +22,9 @@ class Excepciones extends \Exception
             "file" => $this->e->getFile(),
             "messageComplete" => $this->e->getTraceAsString(),
         ];
+    }
+
+    public function testing(){
+        
     }
 }
